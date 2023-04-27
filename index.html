@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <!-- rowspan increases the length of one row into two rows -->
+            <td rowspan="2">John Smith</td>
+            <td>Manager</td>
+            <td>300,000</td>
+
+        </tr>
+        <tr>
+                  <td>Assistant Manager</td>
+        <td>150000</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Salary</th>
+                        <th>Address</th>
+                        <th>Contact</th>
+                    </tr>
+                    <tr>
+                    <td>John Kirr</td>
+                    <td>Human Resource Manager</td>
+                    <td>100,000</td>
+                    <td>1235, Istreet</td>
+                    <td>+829 3563 7278</td>
+                    </tr>
+
+                    <tr>
+                        <td>Salma Roli</td>
+                        <td>Tech Lead</td>
+                        <td>200,000</td>
+                        <td>62472, Usinsi</td>
+                        <td>+272 7328 3838</td>
+                    </tr>
+
+                    <tr>
+                        <td>Yvonne Imite</td>
+                        <td>Front End Developer</td>
+                        <td>150,000</td>
+                        <td>37889, Krina</td>
+                        <td>+748 3839 2483</td>
+                    </tr>
+
+                    <tr>
+                        <td>Xhondia Eral</td>
+                        <td>Back End Developer</td>
+                        <td>150,000</td>
+                        <td>62472, Mroka</td>
+                        <td>+474 9848 8302</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
